@@ -1,0 +1,279 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    font-family: 'Rubik', sans-serif;
+    text-decoration: none;
+    color: black;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+}
+
+img {
+    max-width: 100% !important;
+}
+
+.bg {
+    background: #fdfdfd;
+}
+
+.bgOlive {
+    background: #f5f4ef;
+}
+.bgDkOlive {
+    background: #f5f4ef;
+}
+
+.bgOrange {
+    background-color: #e73c3e;
+}
+
+.textOrange {
+    color: #e73c3e;
+}
+
+.textP {
+    color: #666;
+}
+
+.textH {
+    color: #111;
+}
+
+.commonBtn {
+    font-size: 16px;
+    background: #e73c3e;
+    border-color: #e73c3e;
+    position: relative;
+    z-index: 2;
+    padding: 12px 42px;
+}
+
+.commonBtn:hover {
+    border-color: #000;
+}
+
+.commonBtn::after {
+    content: "";
+    width: 0%;
+    height: 100%;
+    background: #000;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transition: 0.4s;
+}
+
+.commonBtn:hover::after {
+    width: 100%;
+}
+
+.hoverOrange{
+    transition: 0.4s;
+}
+.hoverOrange:hover{
+    color: #e73c3e;
+    cursor: pointer;
+}
+/* header part start */
+header {
+    position: relative;
+}
+
+ul.navItem {}
+
+ul.navItem li {}
+
+ul.navItem li:hover>a {
+    color: #e73c3e !important;
+}
+
+ul.navItem li a {
+    transition: 0.4s;
+    font-weight: 600;
+}
+
+li.navHoverParent {}
+
+li.navHoverParent:hover ul {
+    display: block;
+    border: none;
+    box-shadow: 1px 1px 5px 5px #bdc3c7;
+}
+
+li.navHoverParent ul li a {
+    font-weight: 600;
+    transition: 0.4s;
+}
+
+li.navHoverParent ul li a:hover {
+    letter-spacing: 1px;
+}
+
+.headerAccessories {
+    position: absolute;
+    top: 13%;
+    right: 1%;
+    width: 30%;
+}
+
+div.searchPhone {}
+
+div.searchPhone span {
+    padding: 0 10px;
+}
+
+div.searchPhone span.searchLogo {
+    font-size: 20px;
+    cursor: pointer;
+}
+
+div.searchPhone span.phoneLogo {
+    font-size: 30px;
+    color: #e73c3e;
+}
+
+div.callNumber {}
+
+div.callNumber p {
+    margin-bottom: 0px;
+}
+
+div.callNumber a {
+    font-weight: normal !important;
+    transition: 0.4s;
+}
+
+div.callNumber a:hover {
+    color: #e73c3e;
+}
+
+/* <!-- banner start --> */
+section.banner {
+    background: url(/images/main-banner3.jpg)center center no-repeat;
+    background-size: cover;
+}
+
+section.banner div.bannerLeft {}
+
+section.banner div.bannerLeft h1 {
+    font-size: 60px;
+    color: #111;
+}
+
+section.banner div.bannerLeft p {
+    color: #666;
+    font-size: 18px;
+}
+
+section.banner div.bannerLeft a.bannerBtn {
+    padding: 12px 42px;
+}
+
+section.banner div.bannerRight {}
+
+section.banner div.bannerRight img {}
+
+/* approval start */
+.approvalIcon {
+    color: #ed2a28;
+}
+
+.approvaDetails {
+    font-size: 18px;
+    color: #666;
+}
+
+/* chooseUs start */
+
+.cmmnSctnTtl {}
+
+.cmmnSctnTtl h6 {
+    font-weight: 400;
+}
+
+.cmmnSctnTtl p {
+    width: 50%;
+    margin: auto;
+}
+
+.cmmnSctnTtl h2 {
+    font-size: 36px;
+    line-height: 55px;
+}
+
+
+.chsQlt {
+    background: url(../images/process-shape.png) center center no-repeat;
+    background-size: contain;
+    height: 280px;
+}
+
+div.chsQlt div.chsIcon {}
+
+div.chsQlt div.chsIcon i {
+    margin-top: 50px;
+}
+
+div.chsQlt div.chsDtail {}
+
+div.chsQlt div.chsDtail p {
+    margin: 0 45px;
+}
+
+/* finding start */
+.findingApply{}
+.findingApply ul{
+    position: relative;
+}
+.findingApply ul::after{
+    content: "";
+    position: absolute;
+    top: 20px;
+    left: 25px;
+    height: calc(100% - 25%);
+    width: 1px;
+    background: #e73c3e;
+}
+.findingApply ul li{
+    position: relative;
+}
+.findingApply ul li span{
+    border: 1px solid #e73c3e;
+    z-index: 1;
+    position: absolute;    
+    top: 0;
+    left: -39px;
+    font-size: 20px;
+    padding: 0px 10px;
+}
+
+.recentNewsItem div h6:last-child{
+    transition: 0.4s;
+}
+.recentNewsItem div:hover h6:last-child{
+    letter-spacing: 1px;
+    color: #e73c3e;
+}
+
+.upperFooterItem{}
+.upperFooterItem ul{}
+.upperFooterItem ul li{
+    transition: 0.4s;
+}
+.upperFooterItem ul li:hover{
+    color: #e73c3e;
+    letter-spacing: 1px;
+}
+.upperFooterItem ul li i{
+    transition: 0.4s;
+}
+.upperFooterItem ul li i:hover{
+    color: #e73c3e;
+}

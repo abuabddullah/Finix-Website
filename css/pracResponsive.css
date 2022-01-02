@@ -1,0 +1,190 @@
+@media (max-width:1366px) {
+    div.chsQlt div.chsDtail p {
+        margin: 0 20px;
+    }
+
+    /* <!-- aboutCompany start --> */
+
+}
+
+@media (max-width: 1024px) {
+    a.headerLogo img {
+        width: 100px;
+    }
+
+    .headerAccessories {
+        top: 7%;
+        width: inherit;
+    }
+
+    .commonBtn {
+        padding: 10px 15px;
+    }
+
+    .cmmnSctnTtl p {
+        width: 65%;
+    }
+
+    div.chsQlt div.chsIcon i {
+        margin-top: 60px;
+    }
+
+    div.chsQlt div.chsDtail p {
+        margin: 0 25px;
+        font-size: 12px;
+    }
+
+    /* <!-- aboutCompany start --> */
+
+}
+
+@media (max-width: 768px) {
+    div.searchPhone span.phoneLogo {
+        display: none;
+    }
+
+    div.callNumber {
+        display: none;
+    }
+
+    .commonBtn {
+        padding: 4px 10px;
+        font-weight: 100;
+        font-size: 14px;
+    }
+
+    .headerAccessories {
+        top: 21%;
+        right: 11%;
+    }
+
+    /* approvalitem start */
+    .approvalItem:nth-child(2) {
+        margin: 10px 0;
+        border: none !important;
+    }
+
+    /* chooseUs start */
+    .cmmnSctnTtl p {
+        width: 85%;
+    }
+
+    div.chsQlt div.chsIcon i {
+        margin-top: 65px;
+    }
+
+    div.chsQlt div.chsDtail p {
+        margin: 0 60px;
+        font-size: 16px;
+    }
+
+    /* <!-- stat start --> */
+    .stat div div div.statItem:nth-child(2) {
+        border: none !important;
+    }
+
+    .stat div div div.statItem:nth-child(3) {
+        border: none !important;
+    }
+
+    .businessCall div div div:first-child {
+        border-right: none !important;
+    }
+
+}
+
+@media(max-width: 425px) {
+    .headerAccessories {
+        right: 19%;
+    }
+
+    div.searchPhone span.searchLogo {
+        display: none;
+    }
+
+    /* <!-- banner start --> */
+    .bannerLeft {
+        margin-bottom: 20px;
+    }
+
+    section.banner div.bannerLeft h1 {
+        font-size: 25px;
+    }
+
+    /* approvalitem start */
+    .approvaRow {
+        padding-left: 0 !important;
+    }
+
+    .approvalItem {
+        justify-content: start !important;
+    }
+
+    .approvaDetails {}
+
+    .approvaDetails p:first-child {
+        font-size: 16px;
+    }
+
+    .approvaDetails p:last-child {
+        font-size: 14px;
+    }
+
+    /* chooseUs start */
+    .cmmnSctnTtl {}
+
+    .cmmnSctnTtl h2 {
+        font-size: 25px;
+    }
+
+    .cmmnSctnTtl p {
+        font-size: 15px;
+        width: 100%;
+    }
+
+    .chsQlt {
+        margin: 15px 0;
+    }
+
+    div.chsQlt div.chsDtail p {
+        margin: 0 95px;
+        font-size: 15px;
+    }
+
+
+    /* <!-- aboutCompany start --> */
+    .cmmnSctnTtl h2 {
+        line-height: inherit;
+    }
+
+    /* stat start */
+
+    .stat div div div.statItem {
+        margin: 10px 0 !important;
+    }
+
+}
+
+@media(max-width: 375px) {
+    .headerAccessories {
+        right: 21%;
+    }
+
+    div.chsQlt div.chsDtail p {
+        margin: 0 70px;
+    }
+}
+
+@media(max-width: 320px) {
+    .headerBtn {
+        display: none;
+    }
+
+    div.chsQlt div.chsDtail p {
+        margin: 0 50px;
+    }
+
+
+    /* <!-- stat start --> */
+
+}

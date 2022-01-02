@@ -1,0 +1,932 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css"
+    integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+
+  <!-- css link -->
+  <link rel="stylesheet" href="css/practices.css">
+  <link rel="stylesheet" href="css/pracResponsive.css">
+
+  <!-- googleFont link -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+
+  <!-- font awesome link -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+
+  <title>Hello, world!</title>
+</head>
+
+<body>
+
+  <header class="sticky-top">
+
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom">
+      <div class="container-fluid">
+
+        <a class="navbar-brand headerLogo" href="#">
+          <img src="images/logo.png" alt="">
+        </a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto mb-2 mb-lg-0 navItem">
+
+            <li class="nav-item dropdown navHoverParent">
+              <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button"
+                data-toggle="dropdown" aria-expanded="false">
+                Home
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Home One</a></li>
+                <li><a class="dropdown-item" href="#">Home Two</a></li>
+                <li><a class="dropdown-item" href="#">Home Three</a></li>
+              </ul>
+            </li>
+
+            <li class="nav-item dropdown navHoverParent">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                aria-expanded="false">
+                Pages
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Home One</a></li>
+                <li><a class="dropdown-item" href="#">Home Two</a></li>
+                <li><a class="dropdown-item" href="#">Home Three</a></li>
+              </ul>
+            </li>
+
+            <li class="nav-item dropdown navHoverParent">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                aria-expanded="false">
+                Services
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Home One</a></li>
+                <li><a class="dropdown-item" href="#">Home Two</a></li>
+                <li><a class="dropdown-item" href="#">Home Three</a></li>
+              </ul>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#">Funding</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#">Loans</a>
+            </li>
+
+            <li class="nav-item dropdown navHoverParent">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                aria-expanded="false">
+                News
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Home One</a></li>
+                <li><a class="dropdown-item" href="#">Home Two</a></li>
+                <li><a class="dropdown-item" href="#">Home Three</a></li>
+              </ul>
+            </li>
+
+            <li class="nav-item dropdown navHoverParent">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                aria-expanded="false">
+                Contacts
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Home One</a></li>
+                <li><a class="dropdown-item" href="#">Home Two</a></li>
+                <li><a class="dropdown-item" href="#">Home Three</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="headerAccessories d-flex align-items-center justify-content-between bg-light">
+      <div class="searchPhone">
+        <span class="searchLogo"><i class="fas fa-search    "></i></span>
+        <span class="phoneLogo border-left"><i class="fas fa-phone    "></i></span>
+      </div>
+      <div class="callNumber">
+        <p class="text-secondary">Call Now</p>
+        <a href="tel:123-456-7890">123-456-7890</a>
+      </div>
+      <div class="headerBtn">
+        <a type="button" class="commonBtn btn-lg btn text-white">Apply Now</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- banner start -->
+  <section class="banner py-5">
+    <div class="container-fluid">
+
+      <div class="row align-items-center">
+
+        <div class="col-xl-6 col-lg-6 col-md-12 bannerLeft mb-md-5">
+          <h1>The funds have helped us move your business forward</h1>
+          <p class="my-4">Loans are advantageous as a relatively inexpensive way of borrowing money. Start or grow your
+            own business</p>
+
+          <a type="button" class="commonBtn btn-lg btn text-white bannerBtn">View More</a>
+
+        </div>
+        <div class="col-xl-6 col-lg-6 col-md-12 bannerRight">
+          <img src="images/vector.png" alt="">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- approval start -->
+  <div class="approval py-5 bg">
+    <div class="container">
+      <div class="row my-5 py-3 px-5 approvaRow bgOlive">
+        <div
+          class="col-xl-4 col-lg-4  col-md-6 col-sm-12 approvalItem d-flex align-items-center justify-content-center">
+          <div class="approvalIcon display-6 mr-3">
+            <i class="fas fa-american-sign-language-interpreting"></i>
+          </div>
+          <div class="approvaDetails">
+            <p class="mb-1">No prepayment or</p>
+            <p class="mb-0">hidden fees</p>
+          </div>
+        </div>
+        <div
+          class="col-xl-4 col-lg-4  col-md-6 col-sm-12 approvalItem d-flex align-items-center justify-content-center border-left border-right">
+          <div class="approvalIcon display-6 mr-3">
+            <i class="fas fa-american-sign-language-interpreting"></i>
+          </div>
+          <div class="approvaDetails">
+            <p class="mb-1">20,000</p>
+            <p class="mb-0">Customers satisfaction</p>
+          </div>
+        </div>
+        <div
+          class="col-xl-4 col-lg-4  col-md-12 col-sm-12 approvalItem d-flex align-items-center justify-content-center">
+          <div class="approvalIcon display-6 mr-3">
+            <i class="fas fa-american-sign-language-interpreting"></i>
+          </div>
+          <div class="approvaDetails">
+            <p class="mb-1">Quick</p>
+            <p class="mb-0">Loan approvals</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- chooseUs start -->
+  <section class="chooseUS py-5 bg">
+    <div class="container">
+      <div class="cmmnSctnTtl chooseUsTtl text-center mb-5">
+        <h6 class="textOrange">Transparent process</h6>
+        <h2 class="textH">Why people choose us</h2>
+        <p class="textP">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+          labore et dolore magna aliqua.</p>
+      </div>
+      <div class="row">
+        <div class="col-xl-3 col-lg-3 col-md-6 col-12 my-md-2">
+          <div class="chsQlt text-center mb-md-3">
+            <div class="approvalIcon display-6 mr-3 chsIcon">
+              <i class="fas fa-american-sign-language-interpreting"></i>
+            </div>
+            <div class="chsDtail mt-3">
+              <h4 class="textH mb-3">Experience</h4>
+              <p class="textP">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-3 col-lg-3 col-md-6 col-12 my-md-2">
+          <div class="chsQlt text-center mb-md-3">
+            <div class="approvalIcon display-6 mr-3 chsIcon">
+              <i class="fas fa-american-sign-language-interpreting"></i>
+            </div>
+            <div class="chsDtail mt-3">
+              <h4 class="textH mb-3">Experience</h4>
+              <p class="textP">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-3 col-lg-3 col-md-6 col-12 my-md-2">
+          <div class="chsQlt text-center mb-md-3">
+            <div class="approvalIcon display-6 mr-3 chsIcon">
+              <i class="fas fa-american-sign-language-interpreting"></i>
+            </div>
+            <div class="chsDtail mt-3">
+              <h4 class="textH mb-3">Experience</h4>
+              <p class="textP">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-3 col-lg-3 col-md-6 col-12 my-md-2">
+          <div class="chsQlt text-center mb-md-3">
+            <div class="approvalIcon display-6 mr-3 chsIcon">
+              <i class="fas fa-american-sign-language-interpreting"></i>
+            </div>
+            <div class="chsDtail mt-3">
+              <h4 class="textH mb-3">Experience</h4>
+              <p class="textP">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- aboutCompany start -->
+
+  <section class="aboutCompany bg py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-xl-6 col-lg-6 col-md-12  mb-5 mb-xl-0 mb-lg-0">
+          <img src="/images/image4.png" alt="">
+        </div>
+        <div class="col-xl-6 col-lg-6 col-md-12">
+          <div class="cmmnSctnTtl aboutCompanyTtl text-left mb-5">
+            <h6 class="textOrange">About company</h6>
+            <h2 class="textH">We have been working very efficiently with loan and funding for 25 years.</h2>
+            <p class="text-left  w-100">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+              incididunt ut labore et dolore magna aliqua.</p>
+            <p class="text-left  w-100 my-4" style="font-size:18px;">In business, we focus on 3 things.</p>
+            <ul class="list-unstyled">
+              <li><i class="fas fa-check    textOrange pr-2" style="font-size: 25px;"></i>Useful info</li>
+              <li><i class="fas fa-check    textOrange pr-2" style="font-size: 25px;"></i>Useful info</li>
+              <li><i class="fas fa-check    textOrange pr-2" style="font-size: 25px;"></i>Useful info</li>
+            </ul>
+
+            <a type="button" class="commonBtn btn-lg btn text-white bannerBtn">View More</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- stat start -->
+  <section class="stat py-5 bgOlive">
+    <div class="container">
+      <div class="row">
+        <div class="statItem col-xl-3 col-lg-3 col-md-6 col-sm-12 my-md-3 text-center">
+          <h1 class="textOrange">1,984</h1>
+          <h3>Projects Done</h3>
+        </div>
+        <div class="statItem col-xl-3 col-lg-3 col-md-6 col-sm-12 my-md-3 text-center border-left border-right">
+          <h1 class="textOrange">25</h1>
+          <h3>Awards Won</h3>
+        </div>
+        <div class="statItem col-xl-3 col-lg-3 col-md-6 col-sm-12 my-md-3 text-center border-right">
+          <h1 class="textOrange">100%</h1>
+          <h3>Happy Clients</h3>
+        </div>
+        <div class="statItem col-xl-3 col-lg-3 col-md-6 col-sm-12 my-md-3 text-center">
+          <h1 class="textOrange">10,000</h1>
+          <h3>Loans Increase</h3>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- services start -->
+  <section class="services bg py-5">
+    <div class="container">
+      <div class="row my-5">
+        <div class="cmmnSctnTtl servicesTtl text-center mb-5">
+          <h6 class="textOrange">Knowledge of the market</h6>
+          <h2 class="textH">Only the best professional services</h2>
+          <p class="textP">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+            labore et dolore magna aliqua.</p>
+        </div>
+      </div>
+      <div class="servicesTab">
+        <ul class="row nav nav-pills mb-3" id="pills-tab" role="tablist">
+          <li
+            class="nav-item text-center col-xxl-2 col-xl-2 col-lg-2 col-md-2 col-sm-12 servicesItem p-xl-0 p-lg-0 p-md-0 p-sm-3">
+            <a class="nav-link active" id="pills-aglLoan-tab" data-toggle="pill" href="#pills-aglLoan" role="tab"
+              aria-controls="pills-aglLoan" aria-selected="true">
+              <span class="d-block"><i class="fas fa-home     display-6 mb-3"></i></span>
+              <strong class="d-block">Agricultural Loan</strong>
+            </a>
+          </li>
+
+          <li
+            class="nav-item text-center col-xxl-2 col-xl-2 col-lg-2 col-md-2 col-sm-12 servicesItem p-xl-0 p-lg-0 p-md-0 p-sm-3">
+            <a class="nav-link" id="pills-Payday-tab" data-toggle="pill" href="#pills-Payday" role="tab"
+              aria-controls="pills-Payday" aria-selected="false">
+              <span class="d-block"><i class="fas fa-home     display-6 mb-3"></i></span>
+              <strong class="d-block">Payday Loan</strong>
+            </a>
+          </li>
+
+          <li
+            class="nav-item text-center col-xxl-2 col-xl-2 col-lg-2 col-md-2 col-sm-12 servicesItem p-xl-0 p-lg-0 p-md-0 p-sm-3">
+            <a class="nav-link" id="pills-Home-tab" data-toggle="pill" href="#pills-Home" role="tab"
+              aria-controls="pills-Home" aria-selected="false">
+              <span class="d-block"><i class="fas fa-home     display-6 mb-3"></i></span>
+              <strong class="d-block">Home Loan</strong>
+            </a>
+          </li>
+
+          <li
+            class="nav-item text-center col-xxl-2 col-xl-2 col-lg-2 col-md-2 col-sm-12 servicesItem p-xl-0 p-lg-0 p-md-0 p-sm-3">
+            <a class="nav-link" id="pills-Business-tab" data-toggle="pill" href="#pills-Business" role="tab"
+              aria-controls="pills-Business" aria-selected="false">
+              <span class="d-block"><i class="fas fa-home     display-6 mb-3"></i></span>
+              <strong class="d-block">Business Loan</strong>
+            </a>
+          </li>
+
+          <li
+            class="nav-item text-center col-xxl-2 col-xl-2 col-lg-2 col-md-2 col-sm-12 servicesItem p-xl-0 p-lg-0 p-md-0 p-sm-3">
+            <a class="nav-link" id="pills-Personal-tab" data-toggle="pill" href="#pills-Personal" role="tab"
+              aria-controls="pills-Personal" aria-selected="false">
+              <span class="d-block"><i class="fas fa-home     display-6 mb-3"></i></span>
+              <strong class="d-block">Personal Loan</strong>
+            </a>
+          </li>
+
+          <li
+            class="nav-item text-center col-xxl-2 col-xl-2 col-lg-2 col-md-2 col-sm-12 servicesItem p-xl-0 p-lg-0 p-md-0 p-sm-3">
+            <a class="nav-link" id="pills-Edu-tab" data-toggle="pill" href="#pills-Edu" role="tab"
+              aria-controls="pills-Edu" aria-selected="false">
+              <span class="d-block"><i class="fas fa-home     display-6 mb-3"></i></span>
+              <strong class="d-block">Educational Loan</strong>
+            </a>
+          </li>
+        </ul>
+
+        <div class="tab-content" id="pills-tabContent">
+          <div class="tab-pane fade show active" id="pills-aglLoan" role="tabpanel" aria-labelledby="pills-aglLoan-tab">
+            <div class="row py-5">
+              <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                <div class="aglDtails">
+
+                  <div class="cmmnSctnTtl aboutCompanyTtl text-left mb-5">
+                    <h3 class="textH">About Agricultural loan</h3>
+                    <p class="text-left  w-100 lh-lg">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                      eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices
+                      gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.</p>
+                    <h3 class="textH my-4">Get financing for whatever you need now</h3>
+                    <ul class="list-unstyled">
+                      <li class="lh-lg"><i class="fas fa-circle textOrange pr-2" style="font-size: 10px;"></i>Useful
+                        info</li>
+                      <li class="lh-lg"><i class="fas fa-circle textOrange pr-2" style="font-size: 10px;"></i>Useful
+                        info</li>
+                      <li class="lh-lg"><i class="fas fa-circle textOrange pr-2" style="font-size: 10px;"></i>Useful
+                        info</li>
+                      <li class="lh-lg"><i class="fas fa-circle textOrange pr-2" style="font-size: 10px;"></i>Useful
+                        info</li>
+                    </ul>
+                    <h3 class="textH">Agricultural loan - Eligibility</h3>
+                    <p class="text-left  w-100 lh-lg">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                      eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                <img src="./images/services-tab2.png" alt="">
+              </div>
+            </div>
+          </div>
+
+          <div class="tab-pane fade" id="pills-Payday" role="tabpanel" aria-labelledby="pills-Payday-tab">
+            <div class="row py-5">
+              <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                <div class="aglDtails">
+
+                  <div class="cmmnSctnTtl aboutCompanyTtl text-left mb-5">
+                    <h3 class="textH">About Payday loan</h3>
+                    <p class="text-left  w-100 lh-lg">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                      eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices
+                      gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.</p>
+                    <h3 class="textH my-4">Get financing for whatever you need now</h3>
+                    <ul class="list-unstyled">
+                      <li class="lh-lg"><i class="fas fa-circle textOrange pr-2" style="font-size: 10px;"></i>Useful
+                        info</li>
+                      <li class="lh-lg"><i class="fas fa-circle textOrange pr-2" style="font-size: 10px;"></i>Useful
+                        info</li>
+                      <li class="lh-lg"><i class="fas fa-circle textOrange pr-2" style="font-size: 10px;"></i>Useful
+                        info</li>
+                      <li class="lh-lg"><i class="fas fa-circle textOrange pr-2" style="font-size: 10px;"></i>Useful
+                        info</li>
+                    </ul>
+                    <h3 class="textH">Payday loan - Eligibility</h3>
+                    <p class="text-left  w-100 lh-lg">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                      eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                <img src="./images/services-tab2.png" alt="">
+              </div>
+            </div>
+          </div>
+
+          <div class="tab-pane fade" id="pills-Home" role="tabpanel" aria-labelledby="pills-Home-tab">
+            <div class="row py-5">
+              <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                <div class="aglDtails">
+
+                  <div class="cmmnSctnTtl aboutCompanyTtl text-left mb-5">
+                    <h3 class="textH">About Home loan</h3>
+                    <p class="text-left  w-100 lh-lg">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                      eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices
+                      gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.</p>
+                    <h3 class="textH my-4">Get financing for whatever you need now</h3>
+                    <ul class="list-unstyled">
+                      <li class="lh-lg"><i class="fas fa-circle textOrange pr-2" style="font-size: 10px;"></i>Useful
+                        info</li>
+                      <li class="lh-lg"><i class="fas fa-circle textOrange pr-2" style="font-size: 10px;"></i>Useful
+                        info</li>
+                      <li class="lh-lg"><i class="fas fa-circle textOrange pr-2" style="font-size: 10px;"></i>Useful
+                        info</li>
+                      <li class="lh-lg"><i class="fas fa-circle textOrange pr-2" style="font-size: 10px;"></i>Useful
+                        info</li>
+                    </ul>
+                    <h3 class="textH">Home loan - Eligibility</h3>
+                    <p class="text-left  w-100 lh-lg">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                      eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                <img src="./images/services-tab2.png" alt="">
+              </div>
+            </div>
+          </div>
+
+          <div class="tab-pane fade" id="pills-Business" role="tabpanel" aria-labelledby="pills-Business-tab">
+            <div class="row py-5">
+              <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                <div class="aglDtails">
+
+                  <div class="cmmnSctnTtl aboutCompanyTtl text-left mb-5">
+                    <h3 class="textH">About Business loan</h3>
+                    <p class="text-left  w-100 lh-lg">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                      eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices
+                      gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.</p>
+                    <h3 class="textH my-4">Get financing for whatever you need now</h3>
+                    <ul class="list-unstyled">
+                      <li class="lh-lg"><i class="fas fa-circle textOrange pr-2" style="font-size: 10px;"></i>Useful
+                        info</li>
+                      <li class="lh-lg"><i class="fas fa-circle textOrange pr-2" style="font-size: 10px;"></i>Useful
+                        info</li>
+                      <li class="lh-lg"><i class="fas fa-circle textOrange pr-2" style="font-size: 10px;"></i>Useful
+                        info</li>
+                      <li class="lh-lg"><i class="fas fa-circle textOrange pr-2" style="font-size: 10px;"></i>Useful
+                        info</li>
+                    </ul>
+                    <h3 class="textH">Business loan - Eligibility</h3>
+                    <p class="text-left  w-100 lh-lg">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                      eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                <img src="./images/services-tab2.png" alt="">
+              </div>
+            </div>
+          </div>
+
+          <div class="tab-pane fade" id="pills-Personal" role="tabpanel" aria-labelledby="pills-Personal-tab">
+            <div class="row py-5">
+              <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                <div class="aglDtails">
+
+                  <div class="cmmnSctnTtl aboutCompanyTtl text-left mb-5">
+                    <h3 class="textH">About Personal loan</h3>
+                    <p class="text-left  w-100 lh-lg">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                      eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices
+                      gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.</p>
+                    <h3 class="textH my-4">Get financing for whatever you need now</h3>
+                    <ul class="list-unstyled">
+                      <li class="lh-lg"><i class="fas fa-circle textOrange pr-2" style="font-size: 10px;"></i>Useful
+                        info</li>
+                      <li class="lh-lg"><i class="fas fa-circle textOrange pr-2" style="font-size: 10px;"></i>Useful
+                        info</li>
+                      <li class="lh-lg"><i class="fas fa-circle textOrange pr-2" style="font-size: 10px;"></i>Useful
+                        info</li>
+                      <li class="lh-lg"><i class="fas fa-circle textOrange pr-2" style="font-size: 10px;"></i>Useful
+                        info</li>
+                    </ul>
+                    <h3 class="textH">Personal loan - Eligibility</h3>
+                    <p class="text-left  w-100 lh-lg">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                      eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                <img src="./images/services-tab2.png" alt="">
+              </div>
+            </div>
+          </div>
+
+          <div class="tab-pane fade" id="pills-Edu" role="tabpanel" aria-labelledby="pills-Edu-tab">
+            <div class="row py-5">
+              <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                <div class="aglDtails">
+
+                  <div class="cmmnSctnTtl aboutCompanyTtl text-left mb-5">
+                    <h3 class="textH">About Educational loan</h3>
+                    <p class="text-left  w-100 lh-lg">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                      eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices
+                      gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.</p>
+                    <h3 class="textH my-4">Get financing for whatever you need now</h3>
+                    <ul class="list-unstyled">
+                      <li class="lh-lg"><i class="fas fa-circle textOrange pr-2" style="font-size: 10px;"></i>Useful
+                        info</li>
+                      <li class="lh-lg"><i class="fas fa-circle textOrange pr-2" style="font-size: 10px;"></i>Useful
+                        info</li>
+                      <li class="lh-lg"><i class="fas fa-circle textOrange pr-2" style="font-size: 10px;"></i>Useful
+                        info</li>
+                      <li class="lh-lg"><i class="fas fa-circle textOrange pr-2" style="font-size: 10px;"></i>Useful
+                        info</li>
+                    </ul>
+                    <h3 class="textH">Educational loan - Eligibility</h3>
+                    <p class="text-left  w-100 lh-lg">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                      eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                <img src="./images/services-tab2.png" alt="">
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- businessCall start -->
+
+  <section class="businessCall bg py-5">
+    <div class="container bgOrange rounded-lg">
+      <div class="row p-5 align-items-center">
+        <div class="col-xl-6 col-lg-6 col-md-12 border-right text-xl-left text-lg-left text-center">
+          <h2 class="text-white">
+            We are here to help your business Call to discuss your Solution
+          </h2>
+        </div>
+        <div class="col-xl-2 col-lg-2 col-md-12 text-xl-right text-lg-righ text-center my-xl-0 my-lg-0 my-3">
+          <i class="fas fa-phone    textOrange bg-white p-3 rounded-circle display-6"></i>
+        </div>
+        <div class="col-xl-4 col-lg-4 col-md-12 text-xl-right text-lg-right text-center">
+          <h2>
+            <a href="tel:123-456-7890" class="text-white d-block">123-456-7890</a>
+          </h2>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- value start -->
+
+
+  <section class="valueCompany aboutCompany bg py-5">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-xl-6 col-lg-6 col-md-12 mb-5 mb-xl-0 mb-lg-0">
+          <img src="/images/value.png" alt="">
+        </div>
+        <div class="col-xl-6 col-lg-6 col-md-12">
+          <div class="cmmnSctnTtl aboutCompanyTtl valueCompanyTtl text-left mb-5">
+            <h6 class="textOrange">Company value</h6>
+            <h2 class="textH">Company values are a guide on how the company should run in the future.</h2>
+            <p class="text-left lh-lg mb-3  w-100">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor
+              incididunt ut labore et dolore magna aliqua.</p>
+            <p class="text-left lh-lg mb-3  w-100">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor
+              incididunt ut labore et dolore magna aliqua.</p>
+            <div class="row">
+              <div class="col-xl-6 col-lg-6 col-md-3 col-12  d-flex justify-content-center align-items-center mb-3">
+                <i class="fas fa-home bgOrange text-white rounded-circle p-2 mr-3   "></i>
+                <h4 class="d-inline-block mb-0">Innovative</h4>
+              </div>
+              <div class="col-xl-6 col-lg-6 col-md-3 col-12  d-flex justify-content-center align-items-center mb-3">
+                <i class="fas fa-home bgOrange text-white rounded-circle p-2 mr-3   "></i>
+                <h4 class="d-inline-block mb-0">Innovative</h4>
+              </div>
+              <div class="col-xl-6 col-lg-6 col-md-3 col-12  d-flex justify-content-center align-items-center mb-3">
+                <i class="fas fa-home bgOrange text-white rounded-circle p-2 mr-3   "></i>
+                <h4 class="d-inline-block mb-0">Innovative</h4>
+              </div>
+              <div class="col-xl-6 col-lg-6 col-md-3 col-12  d-flex justify-content-center align-items-center mb-3">
+                <i class="fas fa-home bgOrange text-white rounded-circle p-2 mr-3   "></i>
+                <h4 class="d-inline-block mb-0">Innovative</h4>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CLIEnts words start -->
+  <section class="clientsWords py-5 bgOrange">
+    <div class="container  my-xl-5 my-lg-5">
+      <div class="cmmnSctnTtl chooseUsTtl CLIEntswordsTtl text-center mb-5">
+        <h6 class="text-white">Transparent process</h6>
+        <h2 class="textH text-white">Why people choose us</h2>
+        <p class="textP text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+          incididunt ut
+          labore et dolore magna aliqua.</p>
+      </div>
+      <div class="row">
+        <div class="col-12 col-xl-3 col-lg-3 text-center mb-5">
+          <img src="./images/man2.png" alt="">
+        </div>
+        <div class="col-12 col-xl-8 col-lg-9">
+          <figure class="text-white">
+            <blockquote class="blockquote">
+              <p class="lh-lg">“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo
+                viverra maecenas accumsan lacus vel facilisis.”</p>
+              <h3>Asif A Owadud</h3>
+              <span>Co-founder</span>
+            </blockquote>
+            <figcaption class="blockquote-footer text-white">
+              Someone famous in <cite title="Source Title">Source Title</cite>
+            </figcaption>
+          </figure>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- finding circles start -->
+  <section class="findingCircle py-5 bg">
+    <div class="container my-xl-5 my-lg-5">
+      <div class="cmmnSctnTtl chooseUsTtl CLIEntswordsTtl findingCircleTtl text-center mb-5">
+        <h6 class="textOrange">Funding circles</h6>
+        <h2 class="textH">You deserve a better business loan</h2>
+        <p class="textP">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+          labore et dolore magna aliqua.</p>
+      </div>
+      <div class="row align-items-center">
+        <div class="col-xl-6 col-lg-6 col-12 findingApply mb-5">
+          <h2 class="textH">
+            We usually follow 4 steps to get a better business loans.
+          </h2>
+
+          <ul class="list-unstyled px-5 my-5">
+            <li class="mt-4">
+              <span class="textOrange bg rounded-circle">1</span>
+              <h3>Apply in 10 minutes</h3>
+              <p class="textP">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                ut labore et dolore magna aliqua.</p>
+            </li>
+            <li class="mt-4">
+              <span class="textOrange bg rounded-circle">2</span>
+              <h3>Apply in 10 minutes</h3>
+              <p class="textP">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                ut labore et dolore magna aliqua.</p>
+            </li>
+            <li class="mt-4">
+              <span class="textOrange bg rounded-circle">3</span>
+              <h3>Apply in 10 minutes</h3>
+              <p class="textP">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                ut labore et dolore magna aliqua.</p>
+            </li>
+            <li class="mt-4">
+              <span class="textOrange bg rounded-circle">4</span>
+              <h3>Apply in 10 minutes</h3>
+              <p class="textP">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                ut labore et dolore magna aliqua.</p>
+            </li>
+          </ul>
+          <a type="button" class="commonBtn btn-lg btn text-white bannerBtn">Apply Now</a>
+
+
+        </div>
+        <div class="col-xl-6 col-lg-6 col-12 p-5 bgOrange text-white">
+          <div class="row text-center">
+            <h6 class="text-white">Calculate your rate</h6>
+            <h1 class="textH text-white  my-3">
+              How much do you need?
+            </h1>
+          </div>
+          <div class="row">
+            <form>
+              <div class="mb-3">
+                <label for="exampleInputtext" class="form-label">Type The Money</label>
+                <input type="text" class="form-control form-control-lg" id="exampleInputtext"
+                  aria-describedby="emailHelp" placeholder="$1000">
+              </div>
+              <div class="mb-3">
+                <label for="exampleInputselect" class="form-label">Select The Month/Years</label>
+                <select class="form-select form-select-lg mb-3" aria-label=".form-select-lg example"
+                  id="exampleInputselect">
+                  <option selected>1 Month</option>
+                  <option value="1">2 Month</option>
+                  <option value="1">3 Month</option>
+                  <option value="1">4 Month</option>
+                  <option value="1">5 Month</option>
+                  <option value="1">6 Month</option>
+                  <option value="1">1 Year</option>
+                  <option value="1">2 Year</option>
+                  <option value="1">3 Year</option>
+                </select>
+              </div>
+
+              <div class="mb-3">
+                <label for="exampleInputborrow" class="form-label">Borrowing</label>
+                <input type="text" class="form-control form-control-lg" id="exampleInputborrow"
+                  aria-describedby="emailHelp" placeholder="$10000">
+              </div>
+
+              <div class="mb-3">
+                <label for="exampleInputTerm" class="form-label">Term Of Use</label>
+                <input type="text" class="form-control form-control-lg" id="exampleInputTerm"
+                  aria-describedby="emailHelp" placeholder="6 Month">
+              </div>
+
+              <div class="mb-3">
+                <label for="exampleInputTotal" class="form-label">The Total You Will Pay</label>
+                <input type="text" class="form-control form-control-lg" id="exampleInputTotal"
+                  aria-describedby="emailHelp" placeholder="$11200">
+              </div>
+              <a type="button" class="commonBtn btn-lg btn text-white bannerBtn w-100 shadow-lg border">Apply for This
+                Loan</a>
+
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- recent news -->
+  <section class="recentNews py-5 bgOlive">
+    <div class="container my-xl-5 my-lg-5">
+
+      <div class="cmmnSctnTtl chooseUsTtl CLIEntswordsTtl findingCircleTtl recentNewsTtl text-center mb-5">
+        <h6 class="textOrange">Recent news</h6>
+        <h2 class="textH">Success story posts</h2>
+        <p class="textP">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+          labore et dolore magna aliqua.</p>
+      </div>
+      <div class="row recentNewsItem">
+        <div class="col-12 col-xl-4 col-lg-4 col-md-6">
+          <div class="card text-left shadow bgOlive border-0 mb-4">
+            <img class="card-img-top" src="./images/image1.jpg" alt="">
+            <div class="card-body">
+              <h6 class="card-text textOrange">July 05, 2021</h6>
+              <h5 class="card-title hoverOrange">Financing loans available to small businesses</h5>
+              <h6 class="card-text">Read More</h6>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-xl-4 col-lg-4 col-md-6">
+          <div class="card text-left shadow bgOlive border-0 mb-4">
+            <img class="card-img-top" src="./images/image1.jpg" alt="">
+            <div class="card-body">
+              <h6 class="card-text textOrange">July 05, 2021</h6>
+              <h5 class="card-title hoverOrange">Financing loans available to small businesses</h5>
+              <h6 class="card-text">Read More</h6>
+            </div>
+          </div>
+        </div>
+        <div class="d-none d-xl-none d-lg-none d-xxl-none d-md-block col-md-3"></div>
+        <div class="col-12 col-xl-4 col-lg-4 col-md-6">
+          <div class="card text-left shadow bgOlive border-0 mb-4">
+            <img class="card-img-top" src="./images/image1.jpg" alt="">
+            <div class="card-body">
+              <h6 class="card-text textOrange">July 05, 2021</h6>
+              <h5 class="card-title hoverOrange">Financing loans available to small businesses</h5>
+              <h6 class="card-text">Read More</h6>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- marquee start -->
+  <section class="marque py-5 bg">
+    <div class="container my-5">
+      <marquee behavior="scroll" direction="left" scrollamount="5">
+        <img src="./images/image3.png" class="mx-5" alt="">
+        <img src="./images/image3.png" class="mx-5" alt="">
+        <img src="./images/image3.png" class="mx-5" alt="">
+        <img src="./images/image3.png" class="mx-5" alt="">
+      </marquee>
+    </div>
+  </section>
+
+  <!-- footer start -->
+  <footer>
+    <section class="upperFooter py-5 bg-dark">
+      <div class="container my-3">
+        <div class="row">
+          <div class="col-xl-3 col-lg-3 col-md-6 col-12 text-white upperFooterItem mb-4">
+            <img src="./images/logo2.png" alt="" class="mb-2">
+
+            <p class="text-white lh-lg my-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+              tempor incididunt ut
+              labore et dolore magna aliqua.</p>
+
+            <ul class="list-inline">
+              <li class="list-inline-item">Follow Us :</li>
+              <li class="list-inline-item"><i class="fab fa-twitter"></i></li>
+              <li class="list-inline-item"><i class="fab fa-facebook-f"></i></li>
+              <li class="list-inline-item"><i class="fab fa-instagram"></i></li>
+              <li class="list-inline-item"><i class="fab fa-youtube"></i></li>
+            </ul>
+          </div>
+          <div class="col-xl-3 col-lg-3 col-md-6 col-12 text-white upperFooterItem mb-4">
+            <h4>Quick Links
+            </h4>
+            <hr>
+            <ul class="list-unstyled mt-4">
+              <li class="lh-lg">Contact</li>
+              <li class="lh-lg">Contact</li>
+              <li class="lh-lg">Contact</li>
+              <li class="lh-lg">Contact</li>
+              <li class="lh-lg">Contact</li>
+            </ul>
+          </div>
+          <div class="col-xl-3 col-lg-3 col-md-6 col-12 text-white upperFooterItem mb-4">
+            <h4>Quick Links
+            </h4>
+            <hr>
+            <ul class="list-unstyled mt-4">
+              <li class="lh-lg">Support</li>
+              <li class="lh-lg">Support</li>
+              <li class="lh-lg">Support</li>
+              <li class="lh-lg">Support</li>
+              <li class="lh-lg">Support</li>
+            </ul>
+          </div>
+          <div class="col-xl-3 col-lg-3 col-md-6 col-12 text-white mb-4">
+            <h4>Quick Links
+            </h4>
+            <hr>
+            <ul class="list-unstyled mt-4">
+              <li class=" d-flex mb-3">
+                <i class="fas fa-home    mr-3"></i>
+                <div class="contct d-inline">
+                  <p class="mb-1">6890 Blvd, The Bronx, NY 1058</p>
+                  <p class="mb-1">New York, USA</p>
+                </div>
+              </li>
+              <li class=" d-flex mb-3">
+                <i class="fas fa-home    mr-3"></i>
+                <div class="contct d-inline">
+                  <p class="mb-1">6890 Blvd, The Bronx, NY 1058</p>
+                  <p class="mb-1">New York, USA</p>
+                </div>
+              </li>
+              <li class=" d-flex mb-3">
+                <i class="fas fa-home    mr-3"></i>
+                <div class="contct d-inline">
+                  <p class="mb-1">6890 Blvd, The Bronx, NY 1058</p>
+                  <p class="mb-1">New York, USA</p>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="lowerFooter py-3 border-top text-center bg-dark">
+      <p class="text-secondary">
+        Copyright © 2021 Finix. Designed By <strong class="text-white">EnvyTheme</strong>
+      </p>
+    </section>
+  </footer>
+
+  <!-- Optional JavaScript -->
+  <!-- Popper.js first, then Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+    </script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js"
+    integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>
